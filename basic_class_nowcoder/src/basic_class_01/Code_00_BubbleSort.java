@@ -23,7 +23,7 @@ public class Code_00_BubbleSort {
 	}
 	//^异或运算
 	//异或运算有一个特点
-	//如10^8=2
+	//如10^8=2 
 	//但10^8^8=10
 	public static void swap(int[] arr, int i, int j) {
 		arr[i] = arr[i] ^ arr[j];
