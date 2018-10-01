@@ -13,12 +13,12 @@
 
 
 |⚔️ | 🖥 | 🚏 | 🏖  | 🌁| 📮 | 🔍 | 🚀 | 
-| :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | 
-| [课程01](#basic_class_01) | [课程02](#basic_class_02)|[课程03](#basic_class_03) | [课程04](#basic_class_04) |[课程05](#basic_class_05)|[课程06](#basic_class_06)| [课程07](#basic_class_07) |[课程08](#basic_class_08)|
+| :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| 
+| [课程01](#basic_class_001) | [课程02](#basic_class_02)|[课程03](#basic_class_03) | [课程04](#basic_class_04) |[课程05](#basic_class_05)|[课程06](#basic_class_06)| [课程07](#basic_class_07) |[课程08](#basic_class_08)|
 
 
 
-### ⚔️basic_class_01
+### ⚔️basic_class_001
 - [01.冒泡排序 - BubbleSort](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/basic_class_01/Code_00_BubbleSort.java)
 
 - [02.插入排序 - InsertionSort](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/basic_class_01/Code_01_InsertionSort.java)
