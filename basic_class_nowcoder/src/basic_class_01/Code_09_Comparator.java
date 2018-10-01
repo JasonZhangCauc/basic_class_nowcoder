@@ -2,7 +2,11 @@ package basic_class_01;
 
 import java.util.Arrays;
 import java.util.Comparator;
-
+/**
+ * 
+ * 自定义排序规则
+ *
+ */
 public class Code_09_Comparator {
 
 	public static class Student {

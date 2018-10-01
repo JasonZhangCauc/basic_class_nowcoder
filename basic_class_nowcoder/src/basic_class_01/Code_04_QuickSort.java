@@ -7,6 +7,8 @@ import java.util.Arrays;
  * 可以用荷兰国旗问题来改进快速排序
  * 时间复杂度O(N*logN)，额外空间复杂度O(logN)
  *
+	快速排序可以做到稳定性问题，但是非常难，不需要掌握，
+	可以搜“01 stable sort”
  */
 public class Code_04_QuickSort {
 

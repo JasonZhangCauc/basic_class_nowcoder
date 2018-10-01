@@ -4,7 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-
+/**
+ * 
+ * 已知A、B两个数组，求在B中且不在A中的元素
+ *
+ */
 public class Code_10_GetAllNotIncluded {
 
 	public static List<Integer> GetAllNotIncluded(int[] A, int[] B) {
