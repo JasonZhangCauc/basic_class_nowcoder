@@ -3,9 +3,9 @@ package basic_class_01;
 import java.util.Arrays;
 /**
  * 
- * Ã°ÅİÅÅĞòÏ¸½ÚµÄ½²½âÓë¸´ÔÓ¶È·ÖÎö
- * Ê±¼ä¸´ÔÓ¶ÈO(N^2)£¬¶îÍâ¿Õ¼ä¸´ÔÓ¶ÈO(1)
- * ´ËÅÅĞòËã·¨½öÓÃÓÚ½ÌÑ§
+ * å†’æ³¡æ’åºç»†èŠ‚çš„è®²è§£ä¸å¤æ‚åº¦åˆ†æ
+ * æ—¶é—´å¤æ‚åº¦O(N^2)ï¼Œé¢å¤–ç©ºé—´å¤æ‚åº¦O(1)
+ * æ­¤æ’åºç®—æ³•ä»…ç”¨äºæ•™å­¦
  */
 public class Code_00_BubbleSort {
 
@@ -21,10 +21,10 @@ public class Code_00_BubbleSort {
 			}
 		}
 	}
-	//^Òì»òÔËËã
-	//Òì»òÔËËãÓĞÒ»¸öÌØµã
-	//Èç10^8=2 
-	//µ«10^8^8=10
+	//^å¼‚æˆ–è¿ç®—
+	//å¼‚æˆ–è¿ç®—æœ‰ä¸€ä¸ªç‰¹ç‚¹
+	//å¦‚10^8=2 
+	//ä½†10^8^8=10
 	public static void swap(int[] arr, int i, int j) {
 		arr[i] = arr[i] ^ arr[j];
 		arr[j] = arr[i] ^ arr[j];
@@ -38,7 +38,7 @@ public class Code_00_BubbleSort {
 
 	// for test
 	public static int[] generateRandomArray(int maxSize, int maxValue) {
-		//Éú³É³¤¶ÈËæ»úµÄÊı×é
+		//ç”Ÿæˆé•¿åº¦éšæœºçš„æ•°ç»„
 		int[] arr = new int[(int) ((maxSize + 1) * Math.random())];
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = (int) ((maxValue + 1) * Math.random()) - (int) (maxValue * Math.random());
@@ -90,13 +90,13 @@ public class Code_00_BubbleSort {
 
 	// for test
 	public static void main(String[] args) {
-		int testTime = 500000;//²âÊÔ´ÎÊı
-		int maxSize = 100;//Êı×é³¤¶È
+		int testTime = 500000;//æµ‹è¯•æ¬¡æ•°
+		int maxSize = 100;//æ•°ç»„é•¿åº¦
 		int maxValue = 100;
 		boolean succeed = true;
 		for (int i = 0; i < testTime; i++) {
-			int[] arr1 = generateRandomArray(maxSize, maxValue);//²úÉúÊı×é
-			int[] arr2 = copyArray(arr1);//¸´ÖÆÊı×é
+			int[] arr1 = generateRandomArray(maxSize, maxValue);//äº§ç”Ÿæ•°ç»„
+			int[] arr2 = copyArray(arr1);//å¤åˆ¶æ•°ç»„
 			bubbleSort(arr1);
 			comparator(arr2);
 			if (!isEqual(arr1, arr2)) {

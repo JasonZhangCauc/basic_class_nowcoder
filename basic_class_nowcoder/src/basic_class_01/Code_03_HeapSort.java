@@ -3,13 +3,13 @@ package basic_class_01;
 import java.util.Arrays;
 /**
  * 
- * ¶ÑÅÅĞòµÄÏ¸½ÚºÍ¸´ÔÓ¶È·ÖÎö
- * Ê±¼ä¸´ÔÓ¶ÈO(N*logN)£¬¶îÍâ¿Õ¼ä¸´ÔÓ¶ÈO(1)
- * ¶Ñ½á¹¹·Ç³£ÖØÒª
-	1£¬¶Ñ½á¹¹µÄheapInsertÓëheapify
-	2£¬¶Ñ½á¹¹µÄÔö´óºÍ¼õÉÙ
-	3£¬Èç¹ûÖ»ÊÇ½¨Á¢¶ÑµÄ¹ı³Ì£¬Ê±¼ä¸´ÔÓ¶ÈÎªO(N)
-	4£¬ÓÅÏÈ¼¶¶ÓÁĞ½á¹¹£¬¾ÍÊÇ¶Ñ½á¹¹
+ * å †æ’åºçš„ç»†èŠ‚å’Œå¤æ‚åº¦åˆ†æ
+ * æ—¶é—´å¤æ‚åº¦O(N*logN)ï¼Œé¢å¤–ç©ºé—´å¤æ‚åº¦O(1)
+ * å †ç»“æ„éå¸¸é‡è¦
+	1ï¼Œå †ç»“æ„çš„heapInsertä¸heapify
+	2ï¼Œå †ç»“æ„çš„å¢å¤§å’Œå‡å°‘
+	3ï¼Œå¦‚æœåªæ˜¯å»ºç«‹å †çš„è¿‡ç¨‹ï¼Œæ—¶é—´å¤æ‚åº¦ä¸ºO(N)
+	4ï¼Œä¼˜å…ˆçº§é˜Ÿåˆ—ç»“æ„ï¼Œå°±æ˜¯å †ç»“æ„
  *
  */
 public class Code_03_HeapSort {
@@ -28,18 +28,18 @@ public class Code_03_HeapSort {
 			swap(arr, 0, --size);
 		}
 	}
-	//¹¹½¨´ó¸ù¶Ñ
+	//æ„å»ºå¤§æ ¹å †
 	public static void heapInsert(int[] arr, int index) {
 		while (arr[index] > arr[(index - 1) / 2]) {
 			swap(arr, index, (index - 1) / 2);
 			index = (index - 1) / 2;
 		}
 	}
-	//Ä³Î»ÖÃ±ä»¯ºó¶ÑµÄµ÷Õû
+	//æŸä½ç½®å˜åŒ–åå †çš„è°ƒæ•´
 	public static void heapify(int[] arr, int index, int size) {
 		int left = index * 2 + 1;
 		while (left < size) {
-			int largest = left + 1 < size && arr[left + 1] > arr[left] ? left + 1 : left;//È¡×î´óµÄº¢×ÓµÄÏÂ±ê
+			int largest = left + 1 < size && arr[left + 1] > arr[left] ? left + 1 : left;//å–æœ€å¤§çš„å­©å­çš„ä¸‹æ ‡
 			largest = arr[largest] > arr[index] ? largest : index;
 			if (largest == index) {
 				break;

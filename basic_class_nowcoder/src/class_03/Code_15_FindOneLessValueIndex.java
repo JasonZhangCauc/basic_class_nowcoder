@@ -1,7 +1,7 @@
 package class_03;
 /**
  * 
- * ËÑË÷¾Ö²¿×îĞ¡
+ * æœç´¢å±€éƒ¨æœ€å°
  *
  */
 public class Code_15_FindOneLessValueIndex {

@@ -1,9 +1,9 @@
 package class_03;
 /**
  * 
- * ´òÓ¡Á½¸öÓÐÐòÁ´±íµÄ¹«¹²²¿·Ö
- * ¡¾ÌâÄ¿¡¿ ¸ø¶¨Á½¸öÓÐÐòÁ´±íµÄÍ·Ö¸Õëhead1ºÍhead2£¬´òÓ¡Á½¸ö
- * Á´±íµÄ¹«¹²²¿·Ö¡£
+ * æ‰“å°ä¸¤ä¸ªæœ‰åºé“¾è¡¨çš„å…¬å…±éƒ¨åˆ†
+ * ã€é¢˜ç›®ã€‘ ç»™å®šä¸¤ä¸ªæœ‰åºé“¾è¡¨çš„å¤´æŒ‡é’ˆhead1å’Œhead2ï¼Œæ‰“å°ä¸¤ä¸ª
+ * é“¾è¡¨çš„å…¬å…±éƒ¨åˆ†ã€‚
  */
 public class Code_10_PrintCommonPart {
 

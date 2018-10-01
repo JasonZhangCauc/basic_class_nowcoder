@@ -2,7 +2,7 @@ package class_03;
 /**
  * 
  * 
- * 用数组结构实现大小固定的队列和栈
+ * 鐢ㄦ暟缁勭粨鏋勫疄鐜板ぇ灏忓浐瀹氱殑闃熷垪鍜屾爤
  */
 public class Code_01_Array_To_Stack_Queue {
 

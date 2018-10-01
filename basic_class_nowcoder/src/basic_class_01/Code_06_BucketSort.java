@@ -2,11 +2,11 @@ package basic_class_01;
 
 import java.util.Arrays;
 /**
- * Ͱ����
- * 1���ǻ��ڱȽϵ������뱻�����������ʵ������״�����й�ϵ����
-  	��ʵ���в�������ʹ��
- * 2��ʱ�临�Ӷ�O(N)������ռ临�Ӷ�O(N)
- * 3���ȶ�������
+ * 桶排序
+ * 1，非基于比较的排序，与被排序的样本的实际数据状况很有关系，所
+  	以实际中并不经常使用
+ * 2，时间复杂度O(N)，额外空间复杂度O(N)
+ * 3，稳定的排序
  *
  */
 public class Code_06_BucketSort {

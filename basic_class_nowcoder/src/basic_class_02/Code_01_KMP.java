@@ -2,7 +2,7 @@ package basic_class_02;
 
 /**
  * 
- * KMP×Ö·û´®Æ¥ÅäËã·¨
+ * KMPå­—ç¬¦ä¸²åŒ¹é…ç®—æ³•
  *
  */
 public class Code_01_KMP {

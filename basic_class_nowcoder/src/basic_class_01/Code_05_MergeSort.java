@@ -2,13 +2,13 @@ package basic_class_01;
 
 import java.util.Arrays;
 /**
- * master¹«Ê½µÄÊ¹ÓÃ
+ * masterå…¬å¼çš„ä½¿ç”¨
  * T(N) = a*T(N/b) + O(N^d)1) 
- * log(b,a) > d -> ¸´ÔÓ¶ÈÎªO(N^log(b,a))2)
- * log(b,a) = d -> ¸´ÔÓ¶ÈÎªO(N^d * logN)3) 
- * log(b,a) < d -> ¸´ÔÓ¶ÈÎªO(N^d)
- * ¹é²¢ÅÅĞòµÄÏ¸½Ú½²½âÓë¸´ÔÓ¶È·ÖÎö
- * Ê±¼ä¸´ÔÓ¶ÈO(N*logN)£¬¶îÍâ¿Õ¼ä¸´ÔÓ¶ÈO(N)
+ * log(b,a) > d -> å¤æ‚åº¦ä¸ºO(N^log(b,a))2)
+ * log(b,a) = d -> å¤æ‚åº¦ä¸ºO(N^d * logN)3) 
+ * log(b,a) < d -> å¤æ‚åº¦ä¸ºO(N^d)
+ * å½’å¹¶æ’åºçš„ç»†èŠ‚è®²è§£ä¸å¤æ‚åº¦åˆ†æ
+ * æ—¶é—´å¤æ‚åº¦O(N*logN)ï¼Œé¢å¤–ç©ºé—´å¤æ‚åº¦O(N)
  *
  */
 public class Code_05_MergeSort {
@@ -134,17 +134,17 @@ public class Code_05_MergeSort {
 
 }
 /**
-1£¬¹é²¢ÅÅĞòµÄ¶îÍâ¿Õ¼ä¸´ÔÓ¶È¿ÉÒÔ±ä³ÉO(1)£¬µ«ÊÇ·Ç³£ÄÑ£¬
-²»ĞèÒªÕÆÎÕ¿ÉÒÔËÑ"¹é²¢ÅÅĞò ÄÚ²¿»º´æ"
+1ï¼Œå½’å¹¶æ’åºçš„é¢å¤–ç©ºé—´å¤æ‚åº¦å¯ä»¥å˜æˆO(1)ï¼Œä½†æ˜¯éå¸¸éš¾ï¼Œ
+ä¸éœ€è¦æŒæ¡å¯ä»¥æœ"å½’å¹¶æ’åº å†…éƒ¨ç¼“å­˜"
 
 
 
-//±éÀú¶ş²æÊ÷µÄÉñ¼¶·½·¨ Ê±¼ä¸´ÔÓ¶ÈÎªO(N),¿Õ¼ä¸´ÔÓ¶ÈÎªO(1)
+//éå†äºŒå‰æ ‘çš„ç¥çº§æ–¹æ³• æ—¶é—´å¤æ‚åº¦ä¸ºO(N),ç©ºé—´å¤æ‚åº¦ä¸ºO(1)
 
 
 public class MorrisTraversal {
   
-  //¶ş²æÊ÷½ÚµãµÄ¶¨Òå
+  //äºŒå‰æ ‘èŠ‚ç‚¹çš„å®šä¹‰
 	public static class Node {
 		public int value;
 		Node left;
@@ -154,7 +154,7 @@ public class MorrisTraversal {
 			this.value = data;
 		}
 	}
- //MorrisÖĞĞò±éÀú	
+ //Morrisä¸­åºéå†	
 	public static void morrisIn(Node head) {
 		if (head == null) {
 			return;
@@ -180,7 +180,7 @@ public class MorrisTraversal {
 		}
 		System.out.println();
 	}
-//MorrisÏÈĞò±éÀú
+//Morriså…ˆåºéå†
 	public static void morrisPre(Node head) {
 		if (head == null) {
 			return;
@@ -208,7 +208,7 @@ public class MorrisTraversal {
 		}
 		System.out.println();
 	}
-//MorrisºóĞò±éÀú
+//Morrisååºéå†
 	public static void morrisPos(Node head) {
 		if (head == null) {
 			return;
@@ -258,7 +258,7 @@ public class MorrisTraversal {
 		return pre;
 	}
 
-	// for test -- print tree(Ö±¹ÛµØ´òÓ¡¶ş²æÊ÷)
+	// for test -- print tree(ç›´è§‚åœ°æ‰“å°äºŒå‰æ ‘)
 	public static void printTree(Node head) {
 		System.out.println("Binary Tree:");
 		printInOrder(head, 0, "H", 17);
@@ -297,9 +297,9 @@ public class MorrisTraversal {
 		head.right.left = new Node(5);
 		head.right.right = new Node(7);
 		printTree(head);
-		morrisIn(head);   //ÖĞĞò
-		morrisPre(head);  //ÏÈĞò
-		morrisPos(head);  //ºóĞò
+		morrisIn(head);   //ä¸­åº
+		morrisPre(head);  //å…ˆåº
+		morrisPos(head);  //ååº
 		printTree(head);
 
 	}

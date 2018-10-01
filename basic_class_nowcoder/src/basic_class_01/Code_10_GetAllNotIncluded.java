@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 /**
  * 
- * 已知A、B两个数组，求在B中且不在A中的元素
+ * 宸茬煡A銆丅涓や釜鏁扮粍锛屾眰鍦˙涓笖涓嶅湪A涓殑鍏冪礌
  *
  */
 public class Code_10_GetAllNotIncluded {

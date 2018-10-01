@@ -4,14 +4,14 @@ import java.util.LinkedList;
 import java.util.Queue;
 /**
  * 
- * Ã¨¹·¶ÓÁÐ
- * ÊµÏÖÒ»ÖÖ¹·Ã¨¶ÓÁÐµÄ½á¹¹£¬ÒªÇóÈçÏÂ£º ÓÃ»§¿ÉÒÔµ÷ÓÃadd·½·¨½«catÀà»òdogÀàµÄ
- * ÊµÀý·ÅÈë¶ÓÁÐÖÐ£» ÓÃ»§¿ÉÒÔµ÷ÓÃpollAll·½·¨£¬½«¶ÓÁÐÖÐËùÓÐµÄÊµÀý°´ÕÕ½ø¶ÓÁÐ
- * µÄÏÈºóË³ÐòÒÀ´Îµ¯³ö£» ÓÃ»§¿ÉÒÔµ÷ÓÃpollDog·½·¨£¬½«¶ÓÁÐÖÐdogÀàµÄÊµÀý°´ÕÕ
- * ½ø¶ÓÁÐµÄÏÈºóË³ÐòÒÀ´Îµ¯³ö£» ÓÃ»§¿ÉÒÔµ÷ÓÃpollCat·½·¨£¬½«¶ÓÁÐÖÐcatÀàµÄÊµ
- * Àý°´ÕÕ½ø¶ÓÁÐµÄÏÈºóË³ÐòÒÀ´Îµ¯³ö£» ÓÃ»§¿ÉÒÔµ÷ÓÃisEmpty·½·¨£¬¼ì²é¶ÓÁÐÖÐÊÇ
- * ·ñ»¹ÓÐdog»òcatµÄÊµÀý£» ÓÃ»§¿ÉÒÔµ÷ÓÃisDogEmpty·½·¨£¬¼ì²é¶ÓÁÐÖÐÊÇ·ñÓÐdog
- * ÀàµÄÊµÀý£» ÓÃ»§¿ÉÒÔµ÷ÓÃisCatEmpty·½·¨£¬¼ì²é¶ÓÁÐÖÐÊÇ·ñÓÐcatÀàµÄÊµÀý¡£
+ * çŒ«ç‹—é˜Ÿåˆ—
+ * å®žçŽ°ä¸€ç§ç‹—çŒ«é˜Ÿåˆ—çš„ç»“æž„ï¼Œè¦æ±‚å¦‚ä¸‹ï¼š ç”¨æˆ·å¯ä»¥è°ƒç”¨addæ–¹æ³•å°†catç±»æˆ–dogç±»çš„
+ * å®žä¾‹æ”¾å…¥é˜Ÿåˆ—ä¸­ï¼› ç”¨æˆ·å¯ä»¥è°ƒç”¨pollAllæ–¹æ³•ï¼Œå°†é˜Ÿåˆ—ä¸­æ‰€æœ‰çš„å®žä¾‹æŒ‰ç…§è¿›é˜Ÿåˆ—
+ * çš„å…ˆåŽé¡ºåºä¾æ¬¡å¼¹å‡ºï¼› ç”¨æˆ·å¯ä»¥è°ƒç”¨pollDogæ–¹æ³•ï¼Œå°†é˜Ÿåˆ—ä¸­dogç±»çš„å®žä¾‹æŒ‰ç…§
+ * è¿›é˜Ÿåˆ—çš„å…ˆåŽé¡ºåºä¾æ¬¡å¼¹å‡ºï¼› ç”¨æˆ·å¯ä»¥è°ƒç”¨pollCatæ–¹æ³•ï¼Œå°†é˜Ÿåˆ—ä¸­catç±»çš„å®ž
+ * ä¾‹æŒ‰ç…§è¿›é˜Ÿåˆ—çš„å…ˆåŽé¡ºåºä¾æ¬¡å¼¹å‡ºï¼› ç”¨æˆ·å¯ä»¥è°ƒç”¨isEmptyæ–¹æ³•ï¼Œæ£€æŸ¥é˜Ÿåˆ—ä¸­æ˜¯
+ * å¦è¿˜æœ‰dogæˆ–catçš„å®žä¾‹ï¼› ç”¨æˆ·å¯ä»¥è°ƒç”¨isDogEmptyæ–¹æ³•ï¼Œæ£€æŸ¥é˜Ÿåˆ—ä¸­æ˜¯å¦æœ‰dog
+ * ç±»çš„å®žä¾‹ï¼› ç”¨æˆ·å¯ä»¥è°ƒç”¨isCatEmptyæ–¹æ³•ï¼Œæ£€æŸ¥é˜Ÿåˆ—ä¸­æ˜¯å¦æœ‰catç±»çš„å®žä¾‹ã€‚
  * 
  */
 public class Code_04_DogCatQueue {
