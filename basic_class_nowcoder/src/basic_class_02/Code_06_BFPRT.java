@@ -1,5 +1,11 @@
 package basic_class_02;
 
+/**
+ * 
+ * 在一大堆数中求其前k大或前k小的问题，简称TOP-K问题。
+ * 而目前解决TOP-K问题最有效的算法即是BFPRT算法
+ *
+ */
 public class Code_06_BFPRT {
 
 	// O(N*logK)

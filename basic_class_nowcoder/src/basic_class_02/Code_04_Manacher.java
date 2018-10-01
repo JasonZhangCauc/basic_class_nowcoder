@@ -1,5 +1,9 @@
 package basic_class_02;
-
+/**
+ * 
+ * 给定一个字符串，求出其最长回文子串的长度。
+ *
+ */
 public class Code_04_Manacher {
 
 	public static char[] manacherString(String str) {

@@ -1,5 +1,9 @@
 package basic_class_02;
-
+/**
+ * 
+ * 给定两个二叉树T1和T2， 返回T1的某个子树结构是否与T2的结构相等
+ *
+ */
 public class Code_03_KMP_T1SubtreeEqualsT2 {
 
 	public static class Node {

@@ -1,5 +1,15 @@
 package basic_class_02;
 
+/**
+ * 
+ * 题目：
+	给定一个字符串str1， 只能往str1的后面添加字符变成str2。
+	要求1： str2必须包含两个str1， 两个str1可以有重合， 但是不
+	能以同一个位置开头。
+	要求2： str2尽量短
+	最终返回str2
+ *
+ */
 public class Code_02_KMP_ShortestHaveTwice {
 
 	public static String answer(String str) {
