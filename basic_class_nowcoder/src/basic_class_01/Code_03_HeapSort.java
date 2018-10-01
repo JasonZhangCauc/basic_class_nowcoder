@@ -1,7 +1,17 @@
 package basic_class_01;
 
 import java.util.Arrays;
-
+/**
+ * 
+ * 堆排序的细节和复杂度分析
+ * 时间复杂度O(N*logN)，额外空间复杂度O(1)
+ * 堆结构非常重要
+	1，堆结构的heapInsert与heapify
+	2，堆结构的增大和减少
+	3，如果只是建立堆的过程，时间复杂度为O(N)
+	4，优先级队列结构，就是堆结构
+ *
+ */
 public class Code_03_HeapSort {
 
 	public static void heapSort(int[] arr) {
@@ -18,18 +28,18 @@ public class Code_03_HeapSort {
 			swap(arr, 0, --size);
 		}
 	}
-
+	//构建大根堆
 	public static void heapInsert(int[] arr, int index) {
 		while (arr[index] > arr[(index - 1) / 2]) {
 			swap(arr, index, (index - 1) / 2);
 			index = (index - 1) / 2;
 		}
 	}
-
+	//某位置变化后堆的调整
 	public static void heapify(int[] arr, int index, int size) {
 		int left = index * 2 + 1;
 		while (left < size) {
-			int largest = left + 1 < size && arr[left + 1] > arr[left] ? left + 1 : left;
+			int largest = left + 1 < size && arr[left + 1] > arr[left] ? left + 1 : left;//取最大的孩子的下标
 			largest = arr[largest] > arr[index] ? largest : index;
 			if (largest == index) {
 				break;

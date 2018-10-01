@@ -1,7 +1,13 @@
 package basic_class_01;
 
 import java.util.Arrays;
-
+/**
+ * 
+ * 随机快速排序的细节和复杂度分析
+ * 可以用荷兰国旗问题来改进快速排序
+ * 时间复杂度O(N*logN)，额外空间复杂度O(logN)
+ *
+ */
 public class Code_04_QuickSort {
 
 	public static void quickSort(int[] arr) {
