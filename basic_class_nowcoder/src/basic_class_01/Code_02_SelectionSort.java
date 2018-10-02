@@ -3,8 +3,9 @@ package basic_class_01;
 import java.util.Arrays;
 /**
  * 
- * 插入排序的细节讲解与复杂度分析
+ * 选择排序的细节讲解与复杂度分析
  * 时间复杂度O(N^2)，额外空间复杂度O(1)
+ * 此排序算法仅用于教学
  *
  */
 public class Code_02_SelectionSort {
