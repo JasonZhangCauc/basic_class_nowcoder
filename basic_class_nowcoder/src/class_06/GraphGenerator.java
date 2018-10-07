@@ -1,10 +1,14 @@
 package class_06;
-
+/**
+ * 
+ * 图的生成
+ *
+ */
 public class GraphGenerator {
 
 	public static Graph createGraph(Integer[][] matrix) {
 		Graph graph = new Graph();
-		for (int i = 0; i < matrix.length; i++) {
+		for (int i = 0; i < matrix.length; i++) {//长度为3的数组
 			Integer weight = matrix[i][0];
 			Integer from = matrix[i][1];
 			Integer to = matrix[i][2];
