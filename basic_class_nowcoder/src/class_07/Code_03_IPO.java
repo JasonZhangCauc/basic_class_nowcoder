@@ -3,9 +3,13 @@ package class_07;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 /**
+ * IPO问题
  * 
- * 输入： 参数1，正数数组costs 参数2，正数数组profits 参数3，
- * 正数k 参数4，正数m
+ * 输入： 
+ * 参数1，正数数组costs 
+ * 参数2，正数数组profits 
+ * 参数3，正数k 
+ * 参数4，正数m
  * costs[i]表示i号项目的花费 profits[i]表示i号项目在扣除花
  * 费之后还能挣到的钱(利润) k表示你不能并行、只能串行的最多
  * 做k个项目 m表示你初始的资金
