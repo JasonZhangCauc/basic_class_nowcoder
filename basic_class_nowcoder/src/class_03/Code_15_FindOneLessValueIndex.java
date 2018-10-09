@@ -2,6 +2,9 @@ package class_03;
 /**
  * 
  * 搜索局部最小
+ * 
+ * 给定无序数组arr， 已知arr中任意连个相邻的数都不相等。  
+ * 写一个函数，只需返回arr中任意一个局部最小出现的位置。
  *
  */
 public class Code_15_FindOneLessValueIndex {
@@ -40,7 +43,7 @@ public class Code_15_FindOneLessValueIndex {
 	}
 
 	public static void main(String[] args) {
-		int[] arr = { 6, 5, 3, 4, 6, 7, 8 };
+		int[] arr = { 6, 5, 3, 4, 6, 7, 8 , 6, 5};
 		printArray(arr);
 		int index = getLessIndex(arr);
 		System.out.println("index: " + index + ", value: " + arr[index]);
