@@ -4,6 +4,7 @@ import java.util.HashMap;
 /**
  * 
  * 复制含有随机指针节点的链表
+ * 
 	【题目】 一种特殊的链表节点类描述如下：
 	public class Node { public int value; public Node next; public
 	Node rand;
