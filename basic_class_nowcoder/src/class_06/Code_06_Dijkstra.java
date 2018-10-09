@@ -3,7 +3,12 @@ package class_06;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map.Entry;
-
+/**
+ * 
+ * Dijkstra算法
+ * 适用范围：没有权值为负数的边
+ *
+ */
 // no negative weight
 public class Code_06_Dijkstra {
 
