@@ -2,7 +2,11 @@ package class_06;
 
 import java.util.HashSet;
 import java.util.Stack;
-
+/**
+ * 
+ * DFS图的深度优先遍历
+ *
+ */
 public class Code_02_DFS {
 
 	public static void dfs(Node node) {
