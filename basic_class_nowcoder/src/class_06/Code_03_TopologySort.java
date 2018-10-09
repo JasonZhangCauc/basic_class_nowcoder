@@ -5,7 +5,12 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-
+/**
+ * 
+ * 拓扑排序算法 
+ * 适用范围：要求有向图，且有入度为0的节点，且没有环
+ *
+ */
 public class Code_03_TopologySort {
 
 	// directed graph and no loop
