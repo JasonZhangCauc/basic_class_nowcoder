@@ -4,7 +4,12 @@ import java.util.Comparator;
 import java.util.HashSet;
 import java.util.PriorityQueue;
 import java.util.Set;
-
+/**
+ * 
+ * prim算法 
+ * 适用范围：要求无向图
+ *
+ */
 // undirected graph only
 public class Code_05_Prim {
 
