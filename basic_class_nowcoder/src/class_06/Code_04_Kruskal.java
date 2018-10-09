@@ -6,7 +6,12 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.PriorityQueue;
 import java.util.Set;
-
+/**
+ * 
+ * kruskal算法 
+ * 适用范围：要求无向图
+ *
+ */
 //undirected graph only
 public class Code_04_Kruskal {
 
@@ -72,8 +77,9 @@ public class Code_04_Kruskal {
 	}
 
 	public static Set<Edge> kruskalMST(Graph graph) {
-		UnionFind unionFind = new UnionFind();
+		UnionFind unionFind = new UnionFind();//生成一个并查集
 		unionFind.makeSets(graph.nodes.values());
+		//生成一个优先级队列（堆）
 		PriorityQueue<Edge> priorityQueue = new PriorityQueue<>(new EdgeComparator());
 		for (Edge edge : graph.edges) {
 			priorityQueue.add(edge);
