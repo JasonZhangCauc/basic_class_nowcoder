@@ -3,7 +3,11 @@ package class_06;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
-
+/**
+ * 
+ * BFS图的宽度优先遍历
+ * 
+ */
 public class Code_01_BFS {
 
 	public static void bfs(Node node) {
