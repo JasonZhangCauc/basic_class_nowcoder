@@ -21,7 +21,6 @@ public class Code_05_LowestLexicography {
 		if (strs == null || strs.length == 0) {
 			return "";
 		}
-		// �����µıȽϷ�ʽ����
 		Arrays.sort(strs, new MyComparator());
 		String res = "";
 		for (int i = 0; i < strs.length; i++) {
