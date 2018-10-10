@@ -1,8 +1,7 @@
 package class_08;
 /**
  * 
- * 给你一个数组arr，和一个整数aim。如果可以任意选择arr中的
- * 数字，能不能累加得到aim，返回true或者false
+ * 背包问题(Knapsack problem)
  *
  * 给定两个数组w和v，两个数组长度相等，w[i]表示第i件商品的
  * 重量，v[i]表示第i件商品的价值。 再给定一个整数bag，要求
