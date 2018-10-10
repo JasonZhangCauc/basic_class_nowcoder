@@ -1,9 +1,10 @@
 package class_08;
 /**
  * 
- * 给你一个二维数组，二维数组中的每个数都是正数，要求从左上
- * 角走到右下角，每一步只能向右或者向下。沿途经过的数字要累
- * 加起来。返回最小的路径和。
+ * Money_Problem
+ * 
+ * 给你一个数组arr，和一个整数aim。如果可以任意选择arr中的
+ * 数字，能不能累加得到aim，返回true或者false
  *
  */
 public class Code_08_Money_Problem {
