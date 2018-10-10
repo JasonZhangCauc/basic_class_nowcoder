@@ -1,7 +1,10 @@
 package class_08;
 
 import java.util.Stack;
-
+/**
+ * 
+ * 用递归翻转一个栈ReverseStackUsingRecursive
+ */
 public class Code_06_ReverseStackUsingRecursive {
 
 	public static void reverse(Stack<Integer> stack) {
