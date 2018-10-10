@@ -1,7 +1,11 @@
 package class_08;
-
+/**
+ * 
+ * 一个数字串，能转变成多少种字母串，有多少种转换方式，数字串对应1-a,2-b等
+ * 例如1111可以转变成aaaa,aka,kaa,kk，共四种解法
+ */
 public class FaceBook {
-
+	
 	public static int number(char[] chs, int i) {
 		if (i == chs.length) {
 			return 1;
