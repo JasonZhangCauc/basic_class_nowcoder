@@ -91,23 +91,91 @@
 
 ###  🏖 basic_class_04
 
-- []()
+- [01.PreInPosTraversal 二叉树的先序、中序、后序遍历（递归/非递归）](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_04/Code_01_PreInPosTraversal.java)
+
+- [02.PrintBinaryTree （福利）打印整个二叉树](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_04/Code_02_PrintBinaryTree.java)
+
+- [03.SuccessorNode 在二叉树中找到一个节点的后继节点](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_04/Code_03_SuccessorNode.java)
+
+
+- [04.SerializeAndReconstructTree 二叉树的序列化和反序列化](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_04/Code_04_SerializeAndReconstructTree.java)
+
+- [05.PaperFolding 折纸问题](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_04/Code_05_PaperFolding.java)
+
+- [06.IsBalancedTree 判断一棵二叉树是否是平衡二叉树](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_04/Code_06_IsBalancedTree.java)
+
+- [07.IsBSTAndCBT 树是否是搜索二叉树/完全二叉树](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_04/Code_07_IsBSTAndCBT.java)
+
+- [08.CompleteTreeNodeNumber 求完全二叉树节点的个数](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_04/Code_08_CompleteTreeNodeNumber.java)
 
 ### 🌁 basic_class_05
 
-- []()
+- [01.HashMap 认识哈希函数和哈希表](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_05/Code_01_HashMap.java)
+
+- [02.RandomPool 设计RandomPool结构](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_05/Code_02_RandomPool.java)
+
+- [03.Islands 岛问题](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_05/Code_03_Islands.java)
+
+- [04.UnionFind 并查集结构](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_05/Code_04_UnionFind.java)
+
+- [05.bulongguolvqi 布隆过滤器](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_05/class_05_bulongguolvqi.java)
+
 
 
 ### 📮 basic_class_06
-- []()
+
+- [Edge 边](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_06/Edge.java)
+- [Graph 图](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_06/Graph.java)
+- [GraphGenerator 图的生成](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_06/GraphGenerator.java)
+- [Node 节点](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_06/Node.java)
+
+- [01.BFS](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_06/Code_01_BFS.java)
+
+- [02.DFS](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_06/Code_02_DFS.java)
+
+- [03.TopologySort](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_06/Code_03_TopologySort.java)
+
+- [04.Kruskal](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_06/Code_04_Kruskal.java)
+
+- [05.Prim](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_06/Code_05_Prim.java)
+
+- [06.Dijkstra](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_06/Code_06_Dijkstra.java)
 
 ### 🔍 basic_class_07
 
-- []()
+- [01.TrieTree 前缀树](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_07/Code_01_TrieTree.java)
+
+- [02.Less_Money 金条切割](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_07/Code_02_Less_Money.java)
+
+- [03.IPO](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_07/Code_03_IPO.java)
+
+- [04.MadianQuick 一个数据流中，随时可以取得中位数](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_07/Code_04_MadianQuick.java)
+
+- [05.LowestLexicography 最低的字典序](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_07/Code_05_LowestLexicography.java)
+
+- [06.BestArrange 会议室宣讲](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_07/Code_06_BestArrange.java)
 
 ### 🚀 basic_class_08
-- []()
 
+- [01.Factorial 求n!的结果](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_08/Code_01_Factorial.java)
+
+- [02.Hanoi 汉诺塔](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_08/Code_02_Hanoi.java)
+
+- [03.Print_All_Subsquences 打印一个字符串的全部子序列](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_08/Code_03_Print_All_Subsquences.java)
+
+- [04.Print_All_Permutations 打印一个字符串的全部排列](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_08/Code_04_Print_All_Permutations.java)
+
+- [05.Cow 母牛生母牛](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_08/Code_05_Cow.java)
+
+- [06.ReverseStackUsingRecursive 用递归翻转一个栈](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_08/Code_06_ReverseStackUsingRecursive.java)
+
+- [07.MinPath 二维数组最小的路径和](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_08/Code_07_MinPath.java)
+
+- [08.Money_Problem 数组arr中的数字累加得到aim](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_08/Code_08_Money_Problem.java)
+- [09.Knapsack 背包问题](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_08/Code_09_Knapsack.java)
+
+- [FaceBook 一个数字串，能转变成多少种字母串](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_08/FaceBook.java)
+- [Test](https://github.com/JasonZhangCauc/basic_class_nowcoder/blob/master/basic_class_nowcoder/src/class_08/Test.java)
 
 
 
